@@ -79,7 +79,14 @@ th,td{
 }
 
 /* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
+.banner img {
+    max-width: 1100px; /* Set the maximum width */
+    width: 100%; /* Make it responsive to smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing issues */
+    margin: 0 auto; /* Center the image horizontally */
+}
+/* .banner {position: relative; font-family:'Roboto Slab',serif;} */
 .top-left {
     font-size: 5.33em;
     color: #505050;
